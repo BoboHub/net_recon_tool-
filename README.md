@@ -1,4 +1,9 @@
-# net_recon_tool-
+# net_recon_tool:
 Network Recognisance Tool to allow for reconnaissance enabling users to passively or actively detect hosts on their network. 
 The passive mode uses ARP traffic on a selected interface to detect IP and MAC address pairings. 
-The Active mode sends ICMP requests to every host on the network and displays a list of addresses for which a reply was received
+The Active mode sends ICMP requests to every host on the network and displays a list of addresses for which a reply was received.
+
+# Usage:
+use: -h
+
+net_recon.py -i eth0 -a /OR/ net_recon.py --interface lo -p
